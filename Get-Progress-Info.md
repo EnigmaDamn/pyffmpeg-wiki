@@ -1,6 +1,6 @@
 ## Handle Progress
-*NB: For now progress works with only audio files*
-* self.report_progress - This should be set to True
+*NB: For now progress only works with audio files*
+* self.report_progress - This should be set to True.
 * self.onProgressChanged - This should be set to a name of a function
 eg.
 ```python

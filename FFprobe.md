@@ -1,13 +1,11 @@
 # FFprobe
-Provides FFprobe functions and values
+Provides FFprobe functions and values.
 
 ## Usage
 ### import statement
 ```python
 from pyffmpeg import FFprobe
 ```
-
-
 
 ### \_\_init\_\_()
 This is the default method when you call the FFprobe class
@@ -27,7 +25,7 @@ will print
 ```shell
 > 00:04:32:32
 ```
-NB: The above is just for illustration
+NB: The above is just for illustration.
 
 
 
@@ -46,7 +44,7 @@ input_file = 'path/to/music.mp3'
 fp = FFprobe(input_file)
 fp.get_album_art('cover_art.png')
 ```
-`cover_art.png` will be created in the current directory containing the album art
+`cover_art.png` will be created in the current directory containing the album art.
 
 Using None
 
@@ -60,7 +58,7 @@ will print
 > \x01e\xof4\x01e\xo4e\x03e\x01e\xof4\x01e\xo4e\x03e\x01e\xof4\x01e\xo4e\x03e\x01e\xof4\x01e\xo4e\x03e\x01e\xof4\x01e\xo4e\x03e\xof4\x01e\xo4e\x03e
 ...
 ```
-NB: The above bytes output is just for illustration
+NB: The above bytes output is just for illustration.
 
 
 

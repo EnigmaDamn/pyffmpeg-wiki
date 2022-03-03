@@ -10,7 +10,7 @@
 
 ### log_level
 
-Set the log level to control how much info and errors are display in the console
+Set the log level to control how much info and errors are display in the console.
 
 ```python
 ff = FFmpeg()
@@ -19,7 +19,7 @@ ff.convert('path/to/music_folder/f.mp3', 'f.wav')
 ```
 
 #### Default
-Default value is ```fatal``
+Default value is ```fatal```
 
 #### Possible values
 Corresponds with FFmpeg loglevel flags
